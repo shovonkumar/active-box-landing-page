@@ -1,0 +1,126 @@
+
+
+/* Medium Screen */
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+
+    /* navbar part */
+    .navbar {
+        background: #2a2e48;
+    }
+    .navbar .navbar-nav {
+        margin-top: 0.5rem;
+    }
+    .navbar-nav .nav-item .nav-link {
+        margin: 0.2rem 0;
+    }
+    
+    /* hero part */
+    .hero_content h1 {
+        font-size: 2.65rem;
+        line-height: 2.70rem;
+    }
+    .hero_content p {
+        width: 100%;
+    }
+
+    /* client part */
+    .client_content .client_text .client {
+        width: 70%;
+        padding: 4rem 0;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .client_content .client_text .client p {
+        padding: 0 !important;
+    }
+}
+
+
+
+
+/* Small Screen */
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+
+    /* navbar part */
+    .navbar {
+        background: #2a2e48;
+        padding: 0.7rem 0 !important;
+    }
+    .navbar .navbar-nav {
+        margin-top: 0.5rem;
+    }
+    .navbar-nav .nav-item .nav-link {
+        margin: 0.2rem 0;
+    }
+
+    /* hero part */
+    .hero_content h1 {
+        font-size: 2.2rem;
+        line-height: 2.25rem;
+    }
+    .hero_content p {
+        width: 100%;
+    }
+
+    /* client part */
+    .client_content .client_text .client {
+        width: 70%;
+        padding: 4rem 0;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .client_content .client_text .client p {
+        padding: 0 !important;
+    }
+}
+
+
+
+
+/* Extra Small */
+
+@media (max-width: 575.99px) {
+
+    /* navbar part */
+    .navbar {
+        background: #2a2e48;
+        padding: 0.7rem 0 !important;
+    }
+    .navbar .navbar-nav {
+        margin-top: 0.5rem;
+    }
+    .navbar-nav .nav-item .nav-link {
+        margin: 0.2rem 0;
+    }
+
+    /* hero part */
+    .hero_content h1 {
+        font-size: 2rem;
+        line-height: 2.05rem;
+    }
+    .hero_content p {
+        width: 100%;
+    }
+    .hero_content .btn-hero {
+        font-size: 0.8rem;
+        font-weight: 500;
+        padding: 0.5rem 1.9rem;
+    }
+
+    /* client part */
+    .client_content .client_text .client {
+        width: 70%;
+        padding: 4rem 0;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .client_content .client_text .client p {
+        padding: 0 !important;
+    }
+    .client_content .client_text .client p:nth-child(1) {
+        font-size: 1.35rem;
+    }
+}
+

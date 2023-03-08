@@ -1,0 +1,411 @@
+/*==============================
+Developed by : Shovon Kumar
+Author : Shovon Kumar
+Contact : www.facebook.com/shovon2
+==============================*/
+
+/* Commmon CSS Start */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+ul li {
+	list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+img {
+    vertical-align: middle;
+}
+/* Commmon CSS End */
+
+/* Back to top button Start */
+.back_to_top {
+    color: #fff;
+    background: #e84545;
+    padding: 0.4rem 0.7rem;
+    border: none;
+    border-radius: 0.3rem;
+    position: fixed;
+    bottom: 1.2rem;
+    left: 1.2rem;
+    transition: 0.3s;
+     display: none; 
+    z-index: 10;
+}
+.back_to_top:hover {
+    color: black;
+}
+/* Back to top button End */
+
+/* Header Part Start */
+.header_part {
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+}
+.navbar {
+    padding: 1.2rem 0;
+}
+.nav_bg_sticky{
+    transition: 0.4s;
+    background: #2a2e48;
+    padding: 0.7rem 0 !important;
+}
+.navbar-nav .nav-item .nav-link {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0.35rem 0.9rem;
+    transition: 0.3s;
+    margin-left: 1.5rem;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: #e84545;
+}
+.navbar-toggler {
+    border: 1px solid #fff;
+}
+.navbar-toggler:focus {
+    border: 1px solid transparent;
+}
+/* Header Part End */
+
+/* Hero Part Start */
+.hero_part {
+    background: url(../img/hero_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 14rem;
+    padding-bottom: 9rem;
+    overflow: hidden;
+}
+.hero_content h1 {
+    font-size: 2.9rem;
+    line-height: 2.95rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.hero_content p {
+    width: 60%;
+    margin: 1.5rem auto;
+    font-size: 1.1rem;
+}
+.hero_content .btn-hero {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.82rem;
+    font-weight: 500;
+    background: #e84545;
+    border: none;
+    border-radius: 0;
+    padding: 0.65rem 2.2rem;
+    margin-top: 2rem;
+    transition: 0.3s;
+}
+.hero_content .btn-hero:hover {
+    background: #c21b1b;
+}
+/* Hero Part End */
+
+
+
+/* feature Part Start */
+.feature_part {
+    padding: 7rem 0;
+    background: #fff;
+}
+.feature_content .feature_text span i {
+    color: #e84545;
+    font-size: 2.8rem;
+    margin-bottom: 1.8rem;
+}
+.feature_content .feature_text h4 {
+    color: #2d3033;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.feature_content .feature_text p {
+    color: #6c7279;
+    font-size: 0.85rem;
+    padding: 0 0.5rem;
+    margin-top: 1rem;
+}
+/* Feature Part End */
+
+
+
+
+/* Work Part Start */
+.work_part {
+    overflow: hidden !important;
+}
+.work_content .work_image {
+    position: relative;
+}
+.work_content .work_image img {
+    padding: 0.03rem !important;
+} 
+.work_content .work_image:hover .img_hover {
+    opacity: 1;
+    visibility: visible;
+}
+.work_content .work_image .img_hover {
+    height: 100%;
+    width: 100%;
+    background: #e84545b9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+.work_content .work_image .hover_icon a {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: white;
+    padding: 0.5rem 1.2rem;
+    background: transparent;
+    text-transform: uppercase;
+}
+
+.work_content .work_filter {
+    margin-bottom: 2rem;
+}
+.work_content .work_filter button {
+    background: #e84545;
+    color: #fff;
+    font-size: 0.82rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0.4rem 1.55rem;
+    border: 0;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+    transition: 0.3s;
+}
+.work_content .work_filter button:nth-child(4) {
+    margin-right: 0;
+}
+.work_content .work_filter button:hover {
+    background: #c21b1b;
+}
+.work_content .work_filter .mixitup-control-active {
+    box-shadow: rgba(50, 50, 93, 0.65) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.6) 0px 18px 36px -18px inset;
+}
+/* Work Part End */
+
+
+
+
+
+/* Team Part Start */
+.team_part {
+    background: #fff;
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+}
+.team_content .team img {
+    width: 97% !important;
+    height: auto;
+}
+.team_content .team h4 {
+    font-size: 1.45rem;
+    font-weight: 400;
+    color: #2d3033;
+    margin-top: 1.5rem;
+    margin-bottom: 0.3rem;
+}
+.team_content .team h6 {
+    font-size: 0.83rem;
+    text-transform: uppercase;
+    color: #e84545;
+    margin-bottom: 1.6rem;
+}
+.team_content .team p {
+    font-size: 0.87rem;
+    color: #6c7279;
+    margin-bottom: 1.8rem;
+}
+.team_content .team .links ul {
+    padding: 0;
+}
+.team_content .team .links ul li {
+    height: 2.3rem;
+    width: 2.3rem;
+    background: transparent;
+    border: 1px solid #c6cacc;
+    margin-right: 0.6rem;
+    transition: 0.3s;
+}
+.team_content .team .links ul li:hover {
+    border-color: #e84545;
+}
+.team_content .team .links ul li:hover i {
+    color: #e84545;
+}
+.team_content .team .links a i {
+    color: #c6cacc;
+    font-size: 1.05rem;
+    line-height: 2.3rem;
+    transition: 0.3s;
+}
+/* Team Part End */
+
+
+
+
+/* Client Part Start */
+.client_part {
+    overflow: hidden;
+}
+.client_content .client_text {
+    background: #53354a;
+    height: 100%;
+}
+.client_content .client_text .client {
+    width: 80%;
+}
+.client_content .client_text .client p:nth-child(1) {
+    font-family: 'Cardo', sans-serif;
+    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.2;
+    padding-left: 4rem;
+    margin-bottom: 1.3rem;
+}
+.client_content .client_text .client p:nth-child(2) {
+    padding-left: 4rem;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+}
+.client_content .swiper-pagination {
+    margin-top: 2rem !important;
+    position: unset;
+}
+/* Client Part End */
+
+
+
+/* Download Part Start */
+.download {
+    padding: 4.5rem 0;
+}
+.d_content .d_text p {
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin-bottom: 0.6rem;
+}
+.d_content .d_text h6 {
+    text-transform: uppercase;
+    font-size: 0.90rem;
+    font-weight: 600;
+}
+.d_content .btn-download {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.82rem;
+    font-weight: 500;
+    background: #e84545;
+    border: none;
+    border-radius: 0;
+    padding: 0.65rem 3rem;
+    margin-top: 2rem;
+    transition: 0.3s;
+}
+.d_content .btn-download:hover {
+    background: #c21b1b;
+}
+/* Download Part End */
+
+
+
+/* Contact Part Start */
+.contact_part {
+    padding-top: 4rem;
+    padding-bottom: 4.5rem;
+    background: #3a3e64;
+}
+.contact_content .contact h4 {
+    font-size: 0.97rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.contact_content .contact p {
+    opacity: 0.5;
+    font-size: 0.95rem;
+    margin-top: 0;
+}
+.contact_content .contact ul {
+    padding: 0;
+    margin-top: 1.15rem;
+}
+.contact_content .contact ul li {
+    height: 2.7rem;
+    width: 2.7rem;
+    background: transparent;
+    border: 0.15rem solid #fff;
+    margin-right: 0.7rem;
+    transition: 0.3s;
+}
+.contact_content .contact ul li:last-child {
+    margin-right: 0;
+}
+.contact_content .contact ul li:hover {
+    border-color: #c21b1b;
+}
+.contact_content .contact ul li:hover i {
+    color: #c21b1b;
+}
+.contact_content .contact ul li a i {
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 2.7;
+    transition: 0.3s;
+}
+/* Contact Part End */
+
+
+
+
+/* Footer Part Start */
+.footer_part {
+    background: #313454;
+    padding: 2rem 0;
+}
+.footer_content .footer p {
+    color: #808080;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+.footer_content .footer p a {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.footer_content .footer p a:hover {
+    color: #c21b1b;
+}
+/* Footer Part End */
+
